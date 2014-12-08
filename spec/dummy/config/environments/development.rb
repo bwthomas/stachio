@@ -21,4 +21,7 @@ Dummy::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Because rake db:migrate said so
+  config.eager_load = false
 end
